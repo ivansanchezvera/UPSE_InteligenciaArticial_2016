@@ -1,5 +1,5 @@
 package upse.ia.search.uninformed;
 
 public enum Estrategia {
-	DFS,BFS,Bidireccional, DFSLimitada, ProfundidadIteativa, Backtracking;
+	DFS, BFS, BIDIRECCIONAL, DFS_PROFUNDIDAD_LIMITADA, PROFUNDIDAD_ITERATIVA, BACKTRACKING, INGENUA;
 }
