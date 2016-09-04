@@ -20,6 +20,13 @@ likes(sam,Food) :-
 likes(sam,Food) :-
         italian(Food).
 likes(sam,chips).
+likes(sam,Food) :-
+		ecuatoriana(Food).
+		
+likes(lucin, hamburguesa).
+likes(lucin, Food) :-
+		ecuatoriana(Food),
+		ecuatoriana_costa(Food).
 
 indian(curry).
 indian(dahl).
@@ -36,3 +43,22 @@ chinese(sweet_and_sour).
 
 italian(pizza).
 italian(spaghetti).
+
+ecuatoriana(ceviche).
+ecuatoriana(encebollado).
+ecuatoriana(caldo_de_manguera).
+ecuatoriana(yaguarlocro).
+ecuatoriana(hornado).
+ecuatoriana(cuy).
+ecuatoriana(seco_de_guatusa).
+
+ecuatoriana_costa(ceviche).
+ecuatoriana_costa(encebolldo).
+ecuatoriana_costa(caldo_de_manguera).
+
+ecuatoriana_sierra(yaguarlocro).
+ecuatoriana_sierra(cuy).
+ecuatoriana_sierra(hornado).
+
+ecuatoriana_oriente(seco_de_guatusa).
+ecuatoriana_oriente(mono_hornado).
